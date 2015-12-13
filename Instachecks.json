@@ -1,0 +1,23 @@
+{ "results": [
+	{
+        "ACL": {
+            "lRcDS0QbWv": {
+                "read": true,
+                "write": true
+            }
+        },
+        "user": "Tom2",
+        "account": "12343",
+        "email": "may7@gmail.com",
+         "instacheckItems": "INCOME TAXES $14\n\nPAYROLL TAXES $10\n\nSALES TAXES $7\n\nPROPERTY TAXEX $4\n\nPROFIT TAXES $4\n\n'SIN' TAXES $4\n\nVEHICLE/FUEL TAXES $1\n\nOTHER TAXES $2\n\nTOTAL: 44",
+        "createdAt": "2015-09-21T21:40:43.345Z",
+        "instacheckImg": {
+            "__type": "File",
+            "name": "tfss-7ac83a2d-6ef0-4cb3-9bae-e8f78c8b9050-instacheckImg.jpg",
+            "url": "http://files.parsetfss.com/ed9d8191-0e24-4358-aad3-19d6bdf42381/tfss-7ac83a2d-6ef0-4cb3-9bae-e8f78c8b9050-instacheckImg.jpg"
+        },
+       
+        "objectId": "RgtlUQ50rv",
+        "updatedAt": "2015-09-21T21:40:43.345Z"
+    }
+] }

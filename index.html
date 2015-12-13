@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Billbo with Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="css/bootstrap.css">  
+ <link rel="stylesheet" href="css/mystyles.css">  
+  <link rel="stylesheet" href="css/style.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  
+	<link rel="stylesheet" href="css/login.css" type="text/css">
+	
+    <script src="http://www.parsecdn.com/js/parse-1.6.4.min.js"></script>
+    <script>
+
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69912503-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+ 	 
+<!--导航条	<script src="js/cloudlogin.js"></script>	-->
+
+
+</head>
+
+
+<body style="background-color: white">
+	
+	 <nav class="navbar navbar-inverse navbar-fixed-top">
+	   <div class="container-fluid">
+	     <div class="navbar-header">
+	       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	         <span class="icon-bar"></span>
+	         <span class="icon-bar"></span>
+	         <span class="icon-bar"></span>                        
+	       </button>
+	       <a class="navbar-brand" href="#">Billbo</a>
+	     </div>
+	     <div class="collapse navbar-collapse" id="myNavbar">
+
+<!--导航条-->
+	       <ul class="nav navbar-nav">
+	         <li class="dropdown">
+	           <a class="dropdown-toggle" data-toggle="dropdown" href="#">My Bill<span class="caret"></span></a>
+	           <ul class="dropdown-menu">
+	             <li><a href="#">Resturant</a></li>
+	             <li><a href="#">Hotel</a></li>
+	             <li><a href="#">Market</a></li>
+	           </ul>
+	         </li>
+	         <li><a href="#">Unclassified</a></li>
+	         <li><a href="#">Bill Search</a></li>
+	       </ul>	
+
+<!--login & Signup nav bar-->
+	   
+
+
+            <ul class="nav navbar-nav navbar-right ">
+              <li ><a href="./" type="button"data-toggle="modal" data-target="#myModal2" data-dismiss="modal">Sign up <span class="sr-only"></span></a></li>
+
+              <li class="active"> <button type="button"data-toggle="modal" data-target="#myModal" data-dismiss="modal">Login</button></li>
+
+        
+                       
+            </ul>
+
+
+	        
+
+	       </ul>
+	     </div>
+	   </div>
+	 </nav>
+
+
+	<hr>
+	<div class="container" id="container">
+	  <h2>Billbo.com</h2>
+	  <div class="row">
+    <div class="col-md-12">
+
+	  <img  src="image/billbo.gif" class="img-responsive" alt="Chania">
+	</div>
+	
+
+<div class="col-md-12">
+
+	  <img  src="image/2.gif" class="img-responsive" alt="Chania">
+	</div>
+<div class="panel-body" >            
+  <div class="row">
+</div>
+
+	<!--<div class="container" style="background-color: white; padding-top:30px; padding-bottom:50px;">  -->
+
+		<div class="jumbotron" >
+			<h4>Professional invoices manage with your monthly expenses restaurant bills.</h4>
+			
+			 <button type="button" class="btn btn-block btn-lg btn-custom">Sign Up For Free</button> 
+		</div>
+		
+		
+  </div>
+</div>
+
+	  
+	</div> 
+
+<div class="container">
+  <div class="panel panel-default">
+
+    <div class="panel-footer">Copyrights @ May</div>
+  </div>
+</div>
+
+       <!-- login/signup popup begin-->
+
+      <div class="container">
+    <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+   
+        <div class="card card-container " id="signinform">
+         
+            <img id="profile-img" class="profile-img-card" src="image/icon_login.png" />
+            <p id="profile-name" class="profile-name-card"></p>
+            <form class="form-signin">
+              
+                <input type="text" id="inputUsername" class="form-control" placeholder="User name" name="username"required autofocus>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password"required>
+                <div id="remember" class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                </div>
+                <button class="btn btn-lg btn-warning btn-block btn-signin" id="submit" type="submit">Sign in</button>
+            </form><!-- /form -->
+        </div>   
+       </div>
+       </div>
+  
+     </div>
+     <div class="container">
+     <div class="modal fade" id="myModal2" role="dialog">
+     <div class="modal-dialog">
+    
+   
+        <div class="card card-container " id="signinform">
+         
+            <img id="profile-img" class="profile-img-card" src="image/icon_login.png" />
+            <p id="profile-name" class="profile-name-card"></p>
+            <form class="form-signin2">
+              
+                <input type="text" id="inputUsername" class="form-control" placeholder="User name" name="username"required autofocus>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password"required>
+                <div id="remember" class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                </div>
+                <button class="btn btn-lg btn-warning btn-block btn-signin" id="submit" type="submit">Sign up</button>
+            </form><!-- /form -->
+        </div>   
+       </div>
+       </div>
+  
+     </div>
+      <script> 
+      function addevent(){
+     $(".usera").hide();
+      $(".usera").parent().siblings().show();
+   }
+
+</script>
+     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+       <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+       <script src="//www.parsecdn.com/js/parse-1.6.7.min.js"></script>
+       <script src="js/script.js"></script>
+
+       <!-- login/signup popup end-->
+
+</body>
+</html>
